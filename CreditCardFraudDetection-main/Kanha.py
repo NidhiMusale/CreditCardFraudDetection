@@ -11,7 +11,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 df=st.cache(pd.read_csv)('creditcard.csv')
 
-df = df.sample(frac=0.1, random_state = 48)
+#df = df.sample(frac=0.1, random_state = 48)
 
 # Print shape and description of the data
 if st.sidebar.checkbox('Show what the dataframe looks like'):
